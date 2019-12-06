@@ -1,0 +1,28 @@
+{
+  "name": "nodeexpresssessiontest",
+  "version": "1.0.0",
+  "description": "Node.js + Express + ExpressSession",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kabixi000/NodeExpressSessionTest.git"
+  },
+  "author": "",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/kabixi000/NodeExpressSessionTest/issues"
+  },
+  "homepage": "https://github.com/kabixi000/NodeExpressSessionTest#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
